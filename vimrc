@@ -254,3 +254,17 @@ cnoremap <C-j> <t_kd>
 cnoremap <C-k> <t_ku>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'Glench/Vim-Jinja2-Syntax'                     
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'zxqfl/tabnine-vim'
+Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'scrooloose/nerdtree'
+"Plugin 'pearofducks/ansible-vim'
+"Plugin 'chase/vim-ansible-yaml'
+Plugin 'KabbAmine/yowish.vim'
+Plugin 'altercation/vim-colors-solarized'
+call vundle#end()            " required               
+filetype plugin indent on    " required
